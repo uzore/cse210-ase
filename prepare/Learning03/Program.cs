@@ -1,9 +1,38 @@
 using System;
 
-class Program
+public class Fraction
 {
-    static void Main(string[] args)
+
+    private int = _top;
+    private int -bottom;
+
+    public Fraction()
     {
-        Console.WriteLine("Hello Learning03 World!");
+        //Default to 1/1
+        _top = 1;
+        _bottom = 1;
+    }
+
+    public Fraction(int wholeNumber)
+    {
+        _top = wholeNumber;
+        _bottom = 1;
+
+    }
+
+    public string GetFractionString()
+    {
+        //Notice that this is not stored as a member variable
+        //Is is just a temporary, local variable that will be recomputed each time this is called.
+        string text = $"{_top}/{_bottom}";
+        return text;
+    }
+
+    public double GetDecimalValue()
+    {
+        //Notice this is not stored as a member variable.
+        //Is will be recomputed each time this is called.
+        return (double)_top / (double)_bottom;
+
     }
 }
