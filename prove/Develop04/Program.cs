@@ -90,11 +90,45 @@ namespace MindCare
                 duration = int.Parse(Console.ReadLine());
                 Console.WriteLine($"Prepare to do {name} in 3 seconds...");
                 Thread.Sleep(3000);
+
+                List<string> aStrings = new List<string>();
+                aStrings.Add("|");
+                aStrings.Add("/");
+                aStrings.Add("-");
+                aStrings.Add("\\");
+                aStrings.Add("|");
+                aStrings.Add("/");
+                aStrings.Add("-");
+                aStrings.Add("\\");
+
+                foreach (string s in aStrings)
+                {
+                    Console.Write(s);
+                    Thread.Sleep(500);
+                    Console.Write("\b \b");
+                }
             }
 
         
             public void End()
             {
+
+                List<string> aStrings = new List<string>();
+                aStrings.Add("|");
+                aStrings.Add("/");
+                aStrings.Add("-");
+                aStrings.Add("\\");
+                aStrings.Add("|");
+                aStrings.Add("/");
+                aStrings.Add("-");
+                aStrings.Add("\\");
+
+                foreach (string s in aStrings)
+                {
+                    Console.Write(s);
+                    Thread.Sleep(500);
+                    Console.Write("\b \b");
+                }
                 Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine($"Awesome Job! You've completed {name} for {duration} seconds.");
@@ -129,23 +163,6 @@ namespace MindCare
                     Thread.Sleep(500);
                     secondsRemaining -= 2;
                 }
-
-            List<string> aStrings = new List<string>();
-            aStrings.Add("|");
-            aStrings.Add("/");
-            aStrings.Add("-");
-            aStrings.Add("\\");
-            aStrings.Add("|");
-            aStrings.Add("/");
-            aStrings.Add("-");
-            aStrings.Add("\\");
-
-            foreach (string s in aStrings)
-            {
-                Console.Write(s);
-                Thread.Sleep(500);
-                Console.Write("\b \b");
-            }
 
                 base.End();
             }
@@ -183,24 +200,6 @@ namespace MindCare
 
                     secondsRemaining -= (prompts.Length * questions.Length * 2);
                 }
-
-
-            List<string> aStrings = new List<string>();
-            aStrings.Add("|");
-            aStrings.Add("/");
-            aStrings.Add("-");
-            aStrings.Add("\\");
-            aStrings.Add("|");
-            aStrings.Add("/");
-            aStrings.Add("-");
-            aStrings.Add("\\");
-
-            foreach (string s in aStrings)
-            {
-                Console.Write(s);
-                Thread.Sleep(500);
-                Console.Write("\b \b");
-            }
 
                 base.End();
 
@@ -260,23 +259,6 @@ namespace MindCare
                     Console.WriteLine("{0}. {1}", i + 1, items[i]);
                 }
 
-            List<string> aStrings = new List<string>();
-            aStrings.Add("|");
-            aStrings.Add("/");
-            aStrings.Add("-");
-            aStrings.Add("\\");
-            aStrings.Add("|");
-            aStrings.Add("/");
-            aStrings.Add("-");
-            aStrings.Add("\\");
-
-            foreach (string s in aStrings)
-            {
-                Console.Write(s);
-                Thread.Sleep(500);
-                Console.Write("\b \b");
-            }    
-
                 base.End();
             }
 
@@ -308,23 +290,6 @@ namespace MindCare
                     secondsRemaining -= 2;
                 }
 
-            
-            List<string> aStrings = new List<string>();
-            aStrings.Add("|");
-            aStrings.Add("/");
-            aStrings.Add("-");
-            aStrings.Add("\\");
-            aStrings.Add("|");
-            aStrings.Add("/");
-            aStrings.Add("-");
-            aStrings.Add("\\");
-
-            foreach (string s in aStrings)
-            {
-                Console.Write(s);
-                Thread.Sleep(500);
-                Console.Write("\b \b");
-            }
 
                 base.End();
             }
@@ -352,24 +317,6 @@ namespace MindCare
                     Thread.Sleep(2500);
                     secondsRemaining -= 2;
                 }
-
-            
-            List<string> aStrings = new List<string>();
-            aStrings.Add("|");
-            aStrings.Add("/");
-            aStrings.Add("-");
-            aStrings.Add("\\");
-            aStrings.Add("|");
-            aStrings.Add("/");
-            aStrings.Add("-");
-            aStrings.Add("\\");
-
-            foreach (string s in aStrings)
-            {
-                Console.Write(s);
-                Thread.Sleep(500);
-                Console.Write("\b \b");
-            }
 
                 base.End();
             }
