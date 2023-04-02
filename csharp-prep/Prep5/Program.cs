@@ -11,9 +11,9 @@ class Program
         int uNum    = PromptuNum();
 
 
-        int squaredNumber = SquaredNumber(uNum);
+        // int squaredNumber = SquaredNumber(uNum);
 
-        DisplayResult(uName, squaredNumber);
+        // DisplayResult(uName, squaredNumber);
     }
 
     static void DisplayWelcomeMessage()
@@ -45,7 +45,7 @@ class Program
 
     static void DisplayResult(string name, int square)
     {
-        Console.WriteLine($"{name}, the square of your number is {square}")
+        Console.WriteLine($"{name}, the square of your number is {square}");
     }
 
 

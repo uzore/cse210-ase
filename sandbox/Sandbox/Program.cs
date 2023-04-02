@@ -7,8 +7,8 @@ class Program
     {
         // create different kinds of employees...
         List<Employee> employees = new List<Employee>();
-        employees.add(new Employee());
-        employees.add(new HourlyEmployee());
+        // employees.add(new Employee());
+        // employees.add(new HourlyEmployee());
 
         // get a custom calculation for each one
         foreach(Employee employee in employees)

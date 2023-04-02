@@ -42,13 +42,13 @@ class Program
         }
 
         {
-        Console.Write("What is your favorite number? ");
-        string fnum = Console.ReadLine();
-        int number = int.Parse(fnum);
+            Console.Write("What is your favorite number? ");
+            string fnum = Console.ReadLine();
+            int id = int.Parse(fnum);
         }
-        {
-            string fnum = number.ToString();
-        }
+        // {
+        //     string fnum = id.ToString();
+        // }
     
 
 

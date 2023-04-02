@@ -13,8 +13,8 @@ class Program
         Console.WriteLine(a2.GetSummary());
         Console.WriteLine(a2.GetHomeworkList());
 
-        WriteAss a3 = new WriteAss("JoE Waters", "European", "The Causes of World War II");
-        Console.WriteLine(a3.GetSummary());
-        Console.WriteLine(a3.GetWritingInformation());
+        // WriteAss a3 = new WriteAss("JoE Waters", "European", "The Causes of World War II");
+        // Console.WriteLine(a3.GetSummary());
+        // Console.WriteLine(a3.GetWritingInformation());
     }
 }

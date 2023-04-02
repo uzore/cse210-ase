@@ -1,4 +1,4 @@
-public class Activity
+public abstract class Activity
 
 {
     private string name;
@@ -40,13 +40,13 @@ public class Activity
     }
 
         
-    public void End()
+    public virtual void End()
     {
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine($"    Awesome Job! You've done some {name} exercise for {duration} seconds.");
-            Console.WriteLine();
-            Console.WriteLine($"    Press ENTER to continue...");
-            Console.ReadKey();
+        Console.WriteLine();
+        Console.WriteLine();
+        Console.WriteLine($"    Awesome Job! You've done some {name} exercise for {duration} seconds.");
+        Console.WriteLine();
+        Console.WriteLine($"    Press ENTER to continue...");
+        Console.ReadKey();
     }
 }
