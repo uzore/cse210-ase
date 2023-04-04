@@ -1,6 +1,6 @@
 public class SimpleQuest : Quest
 {
-    public bool IsComplete { get; set; }
+    new public bool IsComplete { get; set; }
 
     public SimpleQuest(string name, int value): base(name, value)
     {

@@ -70,7 +70,7 @@ namespace Diary
         public dailyEvents(string prompt, string response, DateTime date)
         {
             Prompt = prompt;
-            Response = response;
+            Response = response; 
             Date = date;
         }
 

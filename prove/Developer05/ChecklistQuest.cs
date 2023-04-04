@@ -17,7 +17,7 @@ public class ChecklistQuest : Quest
         //     score += value * 5;//Bonus for completing checklist
         // }
         {
-        return "Completed " + _currentCount + "/" + _totalCount + " times";
+            return "Completed " + _currentCount + "/" + _totalCount + " times";
         }
     }
     public override void RecordEvent()

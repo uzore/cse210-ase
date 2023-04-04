@@ -1,9 +1,12 @@
 public abstract class Quest
 {
-        protected string name { get; set; }
-        protected int value { get; set; }
-        protected int score { get; set; }
+        public string name { get; set; }
+        public int value { get; set; }
+        public int score { get; set; }
 
+        public DateTime Date { get; set; }
+
+        public bool IsComplete{ get; set;}
         public Quest(string name, int value)
         {
             this.name = name;
